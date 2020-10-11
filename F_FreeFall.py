@@ -34,11 +34,6 @@ def FreeFall(rho_f, rho_p, nu, D):
     # Empezando el bucle temporal (la carne del asunto)
     for i in range(1, pasos + 1):
 
-        # Calculando la posicion y la velocidad cuando una esfera cae en el vacio
-        # CAso ideal
-        Vv[i] = V0 + 9.81 * (h * i)
-        Zv[i] = Z0 + V0 * (h * i) + 0.5 * 9.81 * (h * i) ** 2
-
         # Calculando el coeficiente de arrastre por medio de la funcion externa
         CD = Cd(V[i - 1], D, nu)
 
