@@ -1,3 +1,4 @@
 # free_fall
 
-Este será el readme que deberoia venir en markdown
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apreziosir/free_fall/master?filepath=Free_Fall00.ipynb)
+
